@@ -79,3 +79,9 @@
 .grid-12 {
   width: calc(90rem - 2.5rem);
 }
+
+@media (max-width: 1440px) {
+  body {
+    background-color: #000;
+  }
+}
