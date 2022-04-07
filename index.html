@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hustafar - Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo grid-2">
+          <a href="#"><img src="./assets/icons/logo.svg" alt="Logo do site" /></a>
+        </div>
+        <nav class="menu-header grid-10">
+          <ul>
+            <li class="menu-item active" data-class="sobre">sobre mim</li>
+            <li class="menu-item" data-class="portifolio">portifólio</li>
+            <li class="menu-item" data-class="contato">contato</li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container intro">
+      <div class="grid-5 foto-intro">
+        <img src="./assets/imgs/minha-img.png" alt="Minha foto" />
+      </div>
+      <div class="grid-6">
+        <h1 class="intro-title">Desenvolvedor Front-End<span class="large-purple-score main-score"></span></h1>
+        <p class="intro-desc">Localizado em São Paulo</p>
+      </div>
+    </div>
+
+    <div class="container sobre">
+      <div class="grid-5 skills grey-box">
+        <h3>Minhas Skills<span class="small-purple-score"></span></h3>
+        <div class="skills-list">
+          <div class="skill" data-desc="Html">
+            <img src="./assets/icons/html.svg" alt="icone do Html" />
+          </div>
+          <div class="skill" data-desc="Css">
+            <img src="./assets/icons/css.svg" alt="icone do CSS" />
+          </div>
+          <div class="skill" data-desc="JavaScript">
+            <img src="./assets/icons/js.svg" alt="icone do JS" />
+          </div>
+          <div class="skill" data-desc="React">
+            <img src="./assets/icons/react.svg" alt="icone do React" />
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-7 formacao">
+        <p class="apresentacao">Meu nome é <span class="apresentacao-highlight">Rodrigo Talansky</span>,</p>
+        <p class="apresentacao">mas também atendo pelo nickname de <span class="apresentacao-highlight">Hustafar</span>.</p>
+        <p class="apresentacao apresentacao-right">Sou um desenvolvedor com o foco em <span class="apresentacao-highlight">front end</span></p>
+        <p class="apresentacao apresentacao-right">e até o momento tenho as seguites <span class="apresentacao-highlight">formações</span>:</p>
+        <div class="grey-box formacao-card">
+          <p class="formacao-data">2021 - Atualmente</p>
+          <p class="formacao-curso">Curso de Front End e UX / UI Design</p>
+          <p class="formacao-instituicao">Origamid</p>
+          <p class="formacao-descricao">A Origamid é uma plataforma com diversos cursos com o foco em Front End e UX / UI Design.</p>
+        </div>
+        <div class="grey-box formacao-card">
+          <p class="formacao-data">2015 - 2018</p>
+          <p class="formacao-curso">Ciência da Computação</p>
+          <p class="formacao-instituicao">Universidade Nove de Julho</p>
+          <p class="formacao-descricao">Curso focado na parte ciêntifica da computação</p>
+        </div>
+        <div class="grey-box formacao-card">
+          <p class="formacao-data">2013 - 2014</p>
+          <p class="formacao-curso">Técnico em Informática</p>
+          <p class="formacao-instituicao">Etec Albert Einstein</p>
+          <p class="formacao-descricao">Esse curso ensina conceitos básicos de informática. (programação, banco de dados, infra...)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portifolio">
+      <div class="container">
+        <h2>Meus projetos<span class="large-purple-score"></span></h2>
+        <div class="portifolio-carousel">
+          <div class="carousel-item">
+            <div class="carousel-icon">1</div>
+            <div class="carousel-titulo">2</div>
+            <div class="carousel-button">3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contato">
+      <div class="container">
+        <div class="grid-7 contato-box">
+          <p>Se interessou?</p>
+          <p>Entre em contato.</p>
+          <div class="contato-redes">
+            <p class="contato-rede"><img src="./assets/icons/linkedin.svg" alt="Icone do Linkedin" /><a target="_blank" href="https://www.linkedin.com/in/rodrigo-talansky-0145bb1a0/">Rodrigo Talansky</a></p>
+            <p class="contato-rede"><img src="./assets/icons/email.svg" alt="Icone do E-mail" /><a target="_blank" href="mailto://rotalansky@gmail.com">rotalansky@gmail.com</a></p>
+            <p class="contato-rede"><img src="./assets/icons/github.svg" alt="Icone do Github" /><a target="_blank" href="https://github.com/hustafar/">@hustafar</a></p>
+          </div>
+        </div>
+        <div class="grid-5">
+          <h4>con<wbr />tato<span class="small-purple-box"></span></h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
