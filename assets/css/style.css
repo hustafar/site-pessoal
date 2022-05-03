@@ -234,6 +234,68 @@ h4 {
   background-color: var(--g2);
 }
 
+.projetos {
+  display: flex;
+}
+
+.projeto-card {
+  position: relative;
+  text-align: center;
+  background-color: var(--g3);
+  border-radius: 0.3125em;
+  padding: 4rem 1rem 1rem 1rem;
+  margin-bottom: 6rem;
+}
+
+.projeto-icon {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  right: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: var(--g2);
+  border: 1px solid var(--g4);
+  box-shadow: 0px 2px 3px var(--g6);
+  border-radius: 0.3125em;
+}
+
+.projeto-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto-titulo {
+  color: var(--g9);
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  padding-bottom: 1.5rem;
+}
+
+.projeto-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 3.125rem;
+  background: var(--mpg1);
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+
+a .projeto-button {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: var(--g1);
+  text-decoration: none;
+  width: 10rem;
+  height: 3.125rem;
+}
+
 .contato {
   background-color: var(--g12);
 }
